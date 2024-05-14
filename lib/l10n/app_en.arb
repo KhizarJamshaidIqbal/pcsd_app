@@ -1,0 +1,80 @@
+
+{
+    "selectYourLanguge":"Select Your Language",
+    "continueToNext":"Continue to Next",
+
+    "skip":"Skip",
+    "next":"Next",
+    "onboardingTitle_1":"Scan and Verify Currency with Ease!",
+    "onboardingTitle_2":"Currency Information at Your Fingertips!",
+    "onboardingTitle_3":"Your Data, Your Shield",
+    "onboardingDescription_1":"With a simple scan, you can verify your currency notes.  Say goodbye to Fake currency and secure your financial transactions with confidence.",
+    "onboardingDescription_2":"We provide you with valuable insights and information about the currency notes you hold. From security feat- -ures to historical significance, our app empowers you with knowledge about your money",
+    "onboardingDescription_3":"we ensure that your data remains safe. Enjoy a worry-free experience while using our app. Your trust is our commitment.",
+
+    "continueAsGuest":"Continue as a Guest",
+    "registerYourSelf":"Register Your Self",
+    "bdescription":"Become a member of our community.",
+    "continueWithGoogle":"Continue with Google",
+    "continueWithFacebook":"Continue with Facebook",
+    "signUpWithEmail":"SignUp with Email",
+    "alredyhaveAccount":"I already have an account",
+
+    "registerWithEmail":"Register With Email",
+    "rDescription":"Join the Pakistan Currency Scanning and Detection Community for beginning your journey to secure your currency verification.",
+    "enterYourName":"Enter Your Name",
+    "name":"Name",
+    "enterEmailAddress":"Enter Email Address",
+    "email":"Email Address",
+    "enterPassword":"Enter Password",
+    "password":"Password",
+    "enterconfirmPassword":"Enter Confirm Password",
+    "confirmPassword":"Confirm Password",
+    "continueButton":"Continue",
+    "alreadyHaveAnAccount":"Already have an account?",
+    "login":"Login",
+
+    "signIn":"Sign In",
+    "sDescription":"Welcome Back!\nPlease enter your credentials to continue.",
+    "forgetYourPassword":"Forget your password?",
+    "resetPassword":"Reset Password",
+    "dontHaveAnAccount":"Don’t have an account?",
+    "signUp":"Sign Up",
+
+    "eAddressDescription":"Enter your Email Address to continue to the Pakistan Currency Scanning and Detection App",
+    "verifyEmailAddress":"Verify Email Address",
+
+    "appBarTitle":"Pakistan Currency Scanning and Detection",
+
+    "h":"Home",
+    "ul":"UV Light",
+    "sc":"Video",
+    "st":"Setting",
+
+    "scn":"Scanning Currency Note",
+    "sh":"Share",
+    "ru":"Rate Us",
+    "ma":"More Apps",
+    "fb":"Feedback",
+    "pp":"Privacy Policy",
+    "lagout":"Lagout",
+    "deleteaccount":"Delete Account",
+
+    "ms":"More Settings",
+    "mp":"My Profile",
+    "cl":"Change Language",
+    "ct":"Chagne Theme",
+
+    "slideTitle": "Slide Down for Brightness",
+
+    "viewNow":"View Now",
+    "rupee":"Rupees",
+    "uvLook":"UV Look",
+    "nextNote":"Next Note",
+    "backNote":"Back Note",
+    "uvLightPreview":"UV Light Preview",
+
+    "appVersion":"Version"
+
+
+}
