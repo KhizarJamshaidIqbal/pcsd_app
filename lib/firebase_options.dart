@@ -17,10 +17,7 @@ import 'package:flutter/foundation.dart'
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
-      throw UnsupportedError(
-        'DefaultFirebaseOptions have not been configured for web - '
-        'you can reconfigure this by running the FlutterFire CLI again.',
-      );
+      return web;
     }
     switch (defaultTargetPlatform) {
       case TargetPlatform.android:
@@ -28,15 +25,9 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -54,6 +45,7 @@ class DefaultFirebaseOptions {
     appId: '1:58982095541:android:b4c3699de28b40dabdfcfc',
     messagingSenderId: '58982095541',
     projectId: 'pcsd-fb86c',
+    databaseURL: 'https://pcsd-fb86c-default-rtdb.firebaseio.com',
     storageBucket: 'pcsd-fb86c.appspot.com',
   );
 
@@ -62,7 +54,45 @@ class DefaultFirebaseOptions {
     appId: '1:58982095541:ios:e9dbe8c166f345e1bdfcfc',
     messagingSenderId: '58982095541',
     projectId: 'pcsd-fb86c',
+    databaseURL: 'https://pcsd-fb86c-default-rtdb.firebaseio.com',
     storageBucket: 'pcsd-fb86c.appspot.com',
+    androidClientId: '58982095541-lmgb1mrsvtmds7n8v02v7da9k3gaqtmi.apps.googleusercontent.com',
+    iosClientId: '58982095541-uen0qipe1milvl4e0uu3cach03qj7u91.apps.googleusercontent.com',
     iosBundleId: 'com.example.pcsdApp',
   );
+
+  static const FirebaseOptions web = FirebaseOptions(
+    apiKey: 'AIzaSyCBfQUBKO6kqSlTby5jG5UEmkA_hzfBfHg',
+    appId: '1:58982095541:web:7e5fb633942b8d2cbdfcfc',
+    messagingSenderId: '58982095541',
+    projectId: 'pcsd-fb86c',
+    authDomain: 'pcsd-fb86c.firebaseapp.com',
+    databaseURL: 'https://pcsd-fb86c-default-rtdb.firebaseio.com',
+    storageBucket: 'pcsd-fb86c.appspot.com',
+    measurementId: 'G-B32HKKBBRM',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyB4cjEVf2yGN-qGf0Xz-7cQixzE72if3XY',
+    appId: '1:58982095541:ios:e9dbe8c166f345e1bdfcfc',
+    messagingSenderId: '58982095541',
+    projectId: 'pcsd-fb86c',
+    databaseURL: 'https://pcsd-fb86c-default-rtdb.firebaseio.com',
+    storageBucket: 'pcsd-fb86c.appspot.com',
+    androidClientId: '58982095541-lmgb1mrsvtmds7n8v02v7da9k3gaqtmi.apps.googleusercontent.com',
+    iosClientId: '58982095541-uen0qipe1milvl4e0uu3cach03qj7u91.apps.googleusercontent.com',
+    iosBundleId: 'com.example.pcsdApp',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyCBfQUBKO6kqSlTby5jG5UEmkA_hzfBfHg',
+    appId: '1:58982095541:web:941c4af4f5e12a20bdfcfc',
+    messagingSenderId: '58982095541',
+    projectId: 'pcsd-fb86c',
+    authDomain: 'pcsd-fb86c.firebaseapp.com',
+    databaseURL: 'https://pcsd-fb86c-default-rtdb.firebaseio.com',
+    storageBucket: 'pcsd-fb86c.appspot.com',
+    measurementId: 'G-QBJRR1L2SG',
+  );
+
 }
