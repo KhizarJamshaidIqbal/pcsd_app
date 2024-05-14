@@ -179,7 +179,7 @@ class MyApp extends StatelessWidget {
                 Locale('ur'), // Urdu
               ],
               navigatorKey: navigatorKey,
-              home:  SplashScreen(),
+              home:  const AdminDashbordScreens(),
             );
           },
         ));
