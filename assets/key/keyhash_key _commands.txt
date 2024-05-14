@@ -1,0 +1,7 @@
+
+ //for Facebook Key Hash     
+keytool -exportcert -alias androiddebugkey -keystore "C:\Users\Khizar Jamshed Iqbal\.android\debug.keystore" | "C:\Users\Khizar Jamshed Iqbal\Downloads\Compressed\openssl-0.9.8k_WIN32\bin\openssl" sha1 -binary | "C:\Users\Khizar Jamshed Iqbal\Downloads\Compressed\openssl-0.9.8k_WIN32\bin\openssl" base64
+      
+//For Google Signin keyhash key
+
+keytool -list -v -alias androiddebugkey -keystore "C:\Users\Khizar Jamshed Iqbal\.android\debug.keystore" -storepass android -keypass android
