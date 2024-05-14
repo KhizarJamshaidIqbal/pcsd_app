@@ -34,7 +34,7 @@ class _CustomFloatingActionButtonState
   Future<void> loadModel() async {
     try {
       await Tflite.loadModel(
-        model: "assets/model/VGG16_Model.tflite",
+        model: "assets/model/VGG16_NewModel.tflite",
         labels: "assets/model/labels.txt",
       );
       if (kDebugMode) {
