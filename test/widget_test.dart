@@ -9,11 +9,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:pcsd_app/main.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
-void main() {
+void main() async{
+    //TODO: Change App Language
+  SharedPreferences sp = await SharedPreferences.getInstance();
+  final String languageCode = sp.getString('langugeCode') ?? '';
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const MyApp());
+    await tester.pumpWidget( MyApp(local: languageCode,));
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);
