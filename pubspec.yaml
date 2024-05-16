@@ -73,7 +73,7 @@ dependencies:
   #For Change App Languge
   # flutter_localizations:
   #   sdk: flutter
-  intl: ^0.18.1
+  intl:
   flutter_localizations:
     sdk: flutter
 
